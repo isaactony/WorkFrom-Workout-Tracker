@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 4000;
 const workoutRoutes = require('./routes/workout');
 const mongoose = require('mongoose');
 
-
+//json parser middleware
 app.use(express.json());
 
 // app.use((req, res, next) => {
